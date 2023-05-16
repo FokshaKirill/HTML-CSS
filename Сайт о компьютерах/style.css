@@ -31,6 +31,23 @@
 	    flex-shrink: 0;
 	}
 
+	input {
+		width: 75%;
+		height: 5em;
+		padding: 12px 20px;
+		margin: 8px 2em;
+		box-sizing: border-box;
+		border: 4px solid #87DF01;
+		color: #000;
+		border-radius: 10px;
+		size: 5em;
+	}
+
+	input:hover {
+		border: 5px solid #a9ff11;
+		transition: 0.3s;
+	}
+
 	.content {
 	    flex: 1;
 	}
