@@ -1,43 +1,72 @@
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Анкета</title>
-		<link rel="icon" type="image/x-icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+
+<head>
+	<meta charset="utf-8">
+	<title>Анкета</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+	<header>
+		<h1 align="center"><B>Анкета</B></h1>
+		<hr size="3" color="#000" width="75%" align="center" style="margin-bottom: 25px">
+		<ul align="center" class="header">
+			<li class="header"><a href="index.html">Главная</a></li>
+			<li class="header"><a href="software.html">Программы</a></li>
+			<li class="header"><a href="glossary.html">Словарь</a></li>
+			<li class="header"><a href="hardware.html">Комплектующие</a></li>
+			<li class="header"><a href="anketa.html">Анкета</a></li>
+		</ul>
+	</header>
+
+	<section class="container">
+		<BR>
+		<p align="center"><b>Имя:</b><br>
+			<input type="text" placeholder="Имя" class="text">
+		</p>
+		<p align="center"><b>Фамилия:</b><br>
+			<input type="text" placeholder="Фамилия" class="text">
+		</p>
+		<p align="center"><b>Город:</b><br>
+			<input type="text" placeholder="Город" class="text">
+		</p>
+		<p align="center"><b>Страна:</b><br>
+			<input type="text" placeholder="Страна" class="text">
+		</p>
+		<p align="center"><b>Электронная почта:</b><br>
+			<input type="text" placeholder="E-Mail" class="text">
+		</p>
+		<br>
+		<p>Укажите, к какой группе Вы себя относите: </p>
+		<input type="radio" name="group" value="schoolboy">учащийся<br>
+		<input type="radio" name="group" value="schoolboy">студент<br>
+		<input type="radio" name="group" value="schoolboy">учитель<br>
+		<br>
+		<p>Какие из сервисов интернета Вы используете наиболее часто: </p>
+		<input type="checkbox" name="group" value="www">WWW<br>
+		<input type="checkbox" name="group" value="e-mail">E-Mail<br>
+		<input type="checkbox" name="group" value="ftp">FTP<br>
+		<br>
+		<select name="browsers">
+			<option selected>Internet Explorer
+			<option>Netscape Navigator
+			<option>Opera
+			<option>Neo Planet
+		</select>
+		<br>
+		Какую ещё информацию Вы хотели бы видеть на нашем сайте?<br>
+		<textarea name="resume" rows="5" cols="150"></textarea>
+		<br><br>
+		<input type="submit" value="Отправить">
+		<input type="reset" value="Очистить">
+	</section>
+
+	<footer class="content">
+		<p>Copyright © <time datetime="2023">2023</time>
+			The Technical College of Informatics and Law</p>
+		<address>Tiraspol, Republic of Moldova.</address>
+	</footer>
 	</head>
 
-	<body>
-		<header>
-			<h1 align = "center"><B>Анкета</B></h1>
-			<hr size = "3" color = "#000" width = "75%" align = "center" style="margin-bottom: 25px">			<ul align = "center" class="header">
-				<li class="header"><a href = "index.html">Главная</a></li>
-				<li class="header"><a href = "software.html">Программы</a></li>
-				<li class="header"><a href = "glossary.html">Словарь</a></li>
-				<li class="header"><a href = "hardware.html">Комплектующие</a></li>
-				<li class="header"><a href = "anketa.html">Анкета</a></li>
-			</ul>
-		</header>
-
-		<section class = "container">
-			<BR>
-				<p align="center"><b>Имя:</b><br>
-			    <input type="text" placeholder="Имя..">
-				</p>
-				<p align="center"><b>Фамилия:</b><br>
-			    <input type="text" placeholder="Фамилия..">
-				</p>
-				<p align="center"><b>Город:</b><br>
-			    <input type="text" placeholder="Город..">
-				</p>
-				<p align="center"><b>Страна:</b><br>
-			    <input type="text" placeholder="Страна..">
-				</p>
-		</section>
-		
-		<footer class="content">
-		    <p>Copyright © <time datetime="2023">2023</time> 
-		       The Technical College of Informatics and Law</p>
-		    <address>Tiraspol, Republic of Moldova.</address>
-		</footer>
-	</head>
 </html>
